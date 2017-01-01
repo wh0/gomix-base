@@ -1,0 +1,4 @@
+#!/bin/sh
+node forward.js
+# ./teleconsole
+# cd / && python -m SimpleHTTPServer ${PORT:-3000}

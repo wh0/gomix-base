@@ -1,0 +1,8 @@
+{
+  "install": "./install",
+  "start": "./start",
+  "watch": {
+    "install": {"include": ["install"]},
+    "restart": {"include": ["start"]}
+  }
+}
