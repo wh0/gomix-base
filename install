@@ -1,11 +1,1 @@
 #!/bin/sh
-exit
-# adapted from https://www.teleconsole.com/get.sh
-FORMAT="tar.gz"
-TARBALL="teleconsole-$$.$FORMAT"
-HOST=teleconsole.com
-OS=$(uname)
-ARCH=$(uname -m)
-URL="https://$HOST/client?os=$OS&arch=$ARCH&format=$FORMAT"
-curl -o $TARBALL -L -f $URL
-tar -xzf $TARBALL
